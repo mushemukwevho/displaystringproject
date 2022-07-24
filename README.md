@@ -21,11 +21,12 @@ run `$ cd app`
 then `$ uvicorn main:app --reload`
 
 ## Tests
-Test files are found in the tests dir
 
 Navigate to root folder.
 
 run `$ pytest`
+
+Note: Tests will be put in separate tests directory later
 
 ## Endpoints
 
