@@ -30,8 +30,7 @@ async def get_display_strings(context_displaystring_item: contextDisplayString):
         Str: displayString
     """
     item_dict = context_displaystring_item.dict()
-    if not item_dict:
-        raise HTTPException(status_code=400, detail="Bad request, no data")
+    
     return DisplayStringService.\
         get_displaystring_for_context(displaystring_holder=item_dict['displaystring_holder'],
                                       locale=item_dict['locale'],
@@ -48,8 +47,7 @@ async def resolve_display_strings(resolve_displaystring_item: resolveDisplayStri
         dict: "documents"
     """
     item_dict = resolve_displaystring_item.dict()
-    if not item_dict:
-        raise HTTPException(status_code=400, detail="Bad request, no data")
+
     return DisplayStringService.\
         resolve_displaystrings(dictionary=item_dict['dictionary'],
                                       locale=item_dict['locale'],
