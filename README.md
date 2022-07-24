@@ -1,5 +1,7 @@
 ## Truckoo: DisplayStringProject(FastAPI)
 
+Clone repo, then `$ cd displaystringproject` (root folder)
+
 ## Run from container
 
 Navigate to root folder.
