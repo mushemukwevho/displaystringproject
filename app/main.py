@@ -18,7 +18,6 @@ app.add_middleware(
     allow_methods=['GET','POST'],
     )
 
-print("It is running")
 
 @app.post("/context_display_strings/")
 async def get_display_strings(context_displaystring_item: contextDisplayString):
