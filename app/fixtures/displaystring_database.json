@@ -1,0 +1,362 @@
+[
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "1-ва ос | Оценка на профила на гумите",
+                "bs-BA": "1. osovina | Procenite profil guma",
+                "cs-CZ": "Profil pneumatiky 1. osy Strana spolujezdce",
+                "de-DE": "1te Achse | Bewerten Sie das Reifenprofil",
+                "en-GB": "1st axle | Assess the tire profile",
+                "es-ES": "Perfil de los neumáticos del 1. eje, lado del  Pasajero",
+                "fr-FR": "Bande de roulement du 1er essieu | côté passager",
+                "it-IT": "Battistrada del primo assale / lato passeggero",
+                "pl-PL": "Bieżnik opon pierwszej osi  | Strona pasażera",
+                "ro-RO": "Profilul primei axe | partea pasagerului",
+                "ru-RU": "Рисунок протектора 1-й оси | со стороны пассажира"
+            },
+            "offer": {
+                "bg-BG": "Профил на гумата на 1-ва ос | Пътнически",
+                "bs-BA": "Profil gume na 1. osovini | Putnička strana",
+                "de-DE": "Reifenprofil der 1ten Achse | Beifahrerseite",
+                "en-GB": "Tire profile at 1st axle | Passenger side",
+                "it-IT": "Profilo del pneumatico al 1 ° asse | Lato passeggero"
+            }
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "1te Achse | Bewerten Sie das Reifenprofil",
+        "uid": "question.tire1_r_profile"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bs-BA": "Na strani suvozača",
+                "de-DE": "Auf der Beifahrerseite",
+                "en-GB": "at the passenger side"
+            },
+            "offer": {
+                "de-DE": "Beifahrerseite"
+            },
+            "tag": {
+                "de-DE": "Rechts",
+                "it-IT": "destra"
+            }
+
+        },
+        "qualityAssured": {
+            "bs-BA": true
+        },
+        "technicalDescription": "1te Achse | Bewerten Sie das Reifenprofil",
+        "uid": "question.tire1_r_profile.description"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Нов профил (15 мм+)",
+                "bs-BA": "Kao nov (15 mm+)",
+                "cs-CZ": "Stejný jako nový profil (15 mm +)",
+                "de-DE": "Neuwertiges Profil (15mm+)",
+                "en-GB": "As good as new profile (15mm+)",
+                "es-ES": "Nuevo perfil (15 mm+)",
+                "fr-FR": "nouveau Pneu (15 mm+)",
+                "it-IT": "Profilo nuovo (15mm+)",
+                "pl-PL": "Jak nowy  (15 mm+)",
+                "ro-RO": "Profil nou (15 mm+)",
+                "ru-RU": "Новый (15 мм+)"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Neuwertiges Profil (15mm+)",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_new"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Добър (14 - 10 мм)",
+                "bs-BA": "Dobar  (14 - 10mm)",
+                "cs-CZ": "Dobrý (14-10 mm)",
+                "de-DE": "Gut (14 - 10mm)",
+                "en-GB": "Good (14 - 10mm)",
+                "es-ES": "Bueno (14 - 10mm)",
+                "fr-FR": "Bon (14 - 10mm)",
+                "it-IT": "Buono (14 - 10mm)",
+                "pl-PL": "Dobry (14 - 10mm)",
+                "ro-RO": "Bun (14 - 10 mm",
+                "ru-RU": "Хороший (14 - 10 мм)"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Gut (14 - 10mm)",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_good"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Използвани (9 - 5мм)",
+                "bs-BA": "Korišten (9 - 5mm)",
+                "cs-CZ": "Použitý (9 - 5 mm)",
+                "de-DE": "Gebraucht (9 - 5mm)",
+                "en-GB": "Used (9 - 5mm)",
+                "es-ES": "Usado (9 - 5mm)",
+                "fr-FR": "Utilisé (9 - 5mm)",
+                "it-IT": "Usato (9 - 5mm)",
+                "pl-PL": "Używany (9 - 5mm)",
+                "ro-RO": "Folosit (9 - 5 mm)",
+                "ru-RU": "Изношенный (9 - 5 мм)"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "cs-CZ": true,
+            "en-GB": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Gebraucht (9 - 5mm)",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_used"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Прихванат (4 - 0 мм)",
+                "bs-BA": "Istrošen (4 - 0mm)",
+                "cs-CZ": "Crazy (4 - 0 mm)",
+                "de-DE": "Abgefahren (4 - 0mm)",
+                "en-GB": "Worn tires (4 - 0mm)",
+                "es-ES": "desgastado (4 - 0mm)",
+                "fr-FR": "Mauvais (4 - 0mm)",
+                "it-IT": "Usurato (4 - 0mm)",
+                "pl-PL": "Zużyty (4 - 0mm",
+                "ro-RO": "Ciudat (4 -0 mm)",
+                "ru-RU": "Плохой (4 - 0 мм)"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Abgefahren (4 - 0mm)",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_bad"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Няма профил - негодни за шофиране",
+                "bs-BA": "Bez profila - nije pogodan za vožnju",
+                "cs-CZ": "Žádný profil - nevhodný pro řízení",
+                "de-DE": "Kein Profil - Fahruntauglich",
+                "en-GB": "No profile - unable to drive",
+                "es-ES": "Sin perfil - No apto para conducir",
+                "fr-FR": "Pas de Pneu - inapte à conduire",
+                "it-IT": "Nessun profilo - non adatto alla guida",
+                "pl-PL": "Brak bieżnika - Niezdolny do prowadzenia pojazdu",
+                "ro-RO": "Fără profil - scos din circulație",
+                "ru-RU": "Без протектора - непригоден для вождения"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "Kein Profil - Fahruntauglich",
+        "uid": "question.tire1_r_profile.option.tire1_r_profile_dead"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "de-DE": "Starten Sie die Bewertung der Reifenprofile auf der Beifahrerseite des Fahrzeugs",
+                "en-GB": "Start the assessment of tire profiles at the passenger side"
+            }
+        },
+        "technicalDescription": "Starten Sie die Bewertung der Reifenprofile auf der Beifahrerseite des Fahrzeugs",
+        "uid": "question.tire1_r_profile.instructions.0"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "1-ва ос | Снимка на протектора на гумата",
+                "bs-BA": "1. osovine | Fotografija profila gume",
+                "cs-CZ": "Profil pneumatik fotografie 1. osy Strana spolujezdce",
+                "de-DE": "1te Achse | Foto des Reifenprofils ",
+                "en-GB": "1st axle | Photo of tire profile",
+                "es-ES": "Foto Perfil de los neumáticos del 1. eje, lado Pasajero",
+                "fr-FR": "Photo du profil des pneus du 1er essieu | côté passager",
+                "it-IT": "1° asse | foto del profilo del pneumatico",
+                "pl-PL": "Zdjęcie bieżnika opony pierwszej osi | Strona pasażera",
+                "ro-RO": "Fotografie profil roată axa 1 | parte pasager",
+                "ru-RU": "Фото рисунка протектора 1-й оси | пассажирская сторона"
+            },
+            "offer": {
+                "bg-BG": "Профил на гумите на 1-ва ос | Пътнически",
+                "bs-BA": "Fotografija profila gume 1. osovine | Suvozačeva strana",
+                "de-DE": "Foto Reifenprofil der 1ten Achse | Beifahrerseite",
+                "en-GB": "Photo of tire profile of 1st axle | Passenger side",
+                "it-IT": "Foto profilo pneumatico del 1 ° asse | Lato passeggero"
+            }
+        },
+        "qualityAssured": {
+            "bs-BA": true,
+            "it-IT": true
+        },
+        "technicalDescription": "1te Achse | Foto des Reifenprofils ",
+        "uid": "question.tire1_r_profile_picture"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bs-BA": "Na strani suvozača",
+                "de-DE": "Auf der Beifahrerseite",
+                "en-GB": "On the passenger side"
+            }
+        },
+        "qualityAssured": {
+            "bs-BA": true
+        },
+        "technicalDescription": "1te Achse | Foto des Reifenprofils ",
+        "uid": "question.tire1_r_profile_picture.description"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Ако има налично оборудване за почистване на",
+                "bs-BA": "Dostupna oprema za uklanjanje snijega",
+                "cs-CZ": "K dispozici je zařízení pro odklízení sněhu",
+                "de-DE": "Ist eine Schneeräum-Ausrüstung vorhanden",
+                "en-GB": "Is snow clearing equipment available",
+                "es-ES": "Equipo de limpieza de nieve disponible",
+                "fr-FR": "Équipement de déneigement disponible",
+                "it-IT": "È disponibile l'attrezzatura per lo sgombero della neve",
+                "pl-PL": "Dostępne wyposażenie do odśnieżania",
+                "ro-RO": "Echipament de dezăpezire disponibil",
+                "ru-RU": "Оборудование для уборки снега"
+            },
+            "offer": {
+                "bg-BG": "Налично оборудване за почистване на сняг",
+                "de-DE": "Schneeräumausrüstung vorhanden",
+                "en-GB": "Snow clearing equipment available"
+            }
+        },
+        "technicalDescription": "Ist eine Schneeräum-Ausrüstung vorhanden",
+        "uid": "question.annex_snowequipment_existent"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Да",
+                "bs-BA": "Da",
+                "cs-CZ": "Jo",
+                "de-DE": "Ja",
+                "en-GB": "Yes",
+                "es-ES": "Sí",
+                "fr-FR": "Oui",
+                "it-IT": "Sì",
+                "pl-PL": "Tak",
+                "ro-RO": "Da",
+                "ru-RU": "Да"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "technicalDescription": "Ja",
+        "uid": "question.annex_snowequipment_existent.option.annex_snowequipment_yes"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Не",
+                "bs-BA": "Ne",
+                "cs-CZ": "Ne",
+                "de-DE": "Nein",
+                "en-GB": "No",
+                "fr-FR": "Non",
+                "pl-PL": "nie",
+                "ro-RO": "Nu",
+                "ru-RU": "Нет"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "qualityAssured": {
+            "bs-BA": true
+        },
+        "technicalDescription": "Nein",
+        "uid": "question.annex_snowequipment_existent.option.annex_snowequipment_nein"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Въртящ се в багажника",
+                "bs-BA": "Rotiranje prikolice",
+                "cs-CZ": "Proboscis otočný",
+                "de-DE": "Rüssel drehbar",
+                "en-GB": "Trunk rotatable",
+                "es-ES": "Trompa giratorio",
+                "fr-FR": "Tronc rotatif",
+                "it-IT": "Tronco ruotabile",
+                "pl-PL": "Obrotowa dysza",
+                "ro-RO": "Trunchi pivotant",
+                "ru-RU": "Поворачивается ли укосина стрелы крана"
+            },
+            "offer": {}
+        },
+        "technicalDescription": "Rüssel drehbar",
+        "uid": "question.greater75_mancarryingplatform_nozzleupperarm_existent"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Да",
+                "bs-BA": "Da",
+                "cs-CZ": "Jo",
+                "de-DE": "Ja",
+                "en-GB": "Yes",
+                "es-ES": "Sí",
+                "fr-FR": "Oui",
+                "it-IT": "Sì",
+                "pl-PL": "Tak",
+                "ro-RO": "Da",
+                "ru-RU": "Да"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "technicalDescription": "Ja",
+        "uid": "question.greater75_mancarryingplatform_nozzleupperarm_existent.option.greater75_mancarryingplatform_nozzleupperarm_existent_yes"
+    },
+    {
+        "contexts": {
+            "assessment": {
+                "bg-BG": "Не",
+                "bs-BA": "Ne",
+                "cs-CZ": "Ne",
+                "de-DE": "Nein",
+                "en-GB": "No",
+                "fr-FR": "Non",
+                "pl-PL": "nie",
+                "ro-RO": "Nu",
+                "ru-RU": "Нет"
+            },
+            "offer": {},
+            "tag": {}
+        },
+        "technicalDescription": "Nein",
+        "uid": "question.greater75_mancarryingplatform_nozzleupperarm_existent.option.greater75_mancarryingplatform_nozzleupperarm_existent_no"
+    }
+]

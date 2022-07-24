@@ -1,0 +1,111 @@
+[
+    {
+        "category": "tires_and_suspension",
+        "condition": "",
+        "defaultTag": false,
+        "description": "Auf der Beifahrerseite",
+        "displayStringUID": "question.tire1_r_profile",
+        "info": "\n",
+        "instructions": [
+            {
+                "displayStringUID": "question.tire1_r_profile.instructions.0",
+                "label": "Starten Sie die Bewertung der Reifenprofile auf der Beifahrerseite des Fahrzeugs"
+            }
+        ],
+        "label": "1te Achse | Bewerten Sie das Reifenprofil",
+        "options": [
+            {
+                "condition": "",
+                "displayStringUID": "question.tire1_r_profile.option.tire1_r_profile_new",
+                "label": "Neuwertiges Profil (15mm+)",
+                "uid": "tire1_r_profile_new"
+            },
+            {
+                "condition": "",
+                "displayStringUID": "question.tire1_r_profile.option.tire1_r_profile_good",
+                "label": "Gut (14 - 10mm)",
+                "uid": "tire1_r_profile_good"
+            },
+            {
+                "condition": "",
+                "displayStringUID": "question.tire1_r_profile.option.tire1_r_profile_used",
+                "label": "Gebraucht (9 - 5mm)",
+                "uid": "tire1_r_profile_used"
+            },
+            {
+                "condition": "",
+                "displayStringUID": "question.tire1_r_profile.option.tire1_r_profile_bad",
+                "label": "Abgefahren (4 - 0mm)",
+                "uid": "tire1_r_profile_bad"
+            },
+            {
+                "condition": "",
+                "displayStringUID": "question.tire1_r_profile.option.tire1_r_profile_dead",
+                "label": "Kein Profil - Fahruntauglich",
+                "uid": "tire1_r_profile_dead"
+            }
+        ],
+        "qualityAssured": true,
+        "sortOrder": 4,
+        "subcategory": "axle",
+        "uid": "tire1_r_profile",
+        "widgetType": "single-select"
+    },
+    {
+        "category": "annex",
+        "condition": "",
+        "defaultTag": false,
+        "description": "",
+        "displayStringUID": "question.annex_snowequipment_existent",
+        "info": "",
+        "instructions": null,
+        "label": "Ist eine Schneeräum-Ausrüstung vorhanden",
+        "options": [
+            {
+                "condition": "",
+                "displayStringUID": "question.annex_snowequipment_existent.option.annex_snowequipment_yes",
+                "label": "Ja",
+                "uid": "annex_snowequipment_yes"
+            },
+            {
+                "condition": "",
+                "displayStringUID": "question.annex_snowequipment_existent.option.annex_snowequipment_nein",
+                "label": "Nein",
+                "uid": "annex_snowequipment_nein"
+            }
+        ],
+        "qualityAssured": true,
+        "sortOrder": 0,
+        "subcategory": "snow",
+        "uid": "annex_snowequipment_existent",
+        "widgetType": "single-select"
+    },
+    {
+        "category": "body",
+        "condition": "",
+        "defaultTag": false,
+        "description": "",
+        "displayStringUID": "question.greater75_mancarryingplatform_nozzleupperarm_existent",
+        "info": "",
+        "instructions": [],
+        "label": "Rüssel drehbar",
+        "options": [
+            {
+                "condition": "",
+                "displayStringUID": "question.greater75_mancarryingplatform_nozzleupperarm_existent.option.greater75_mancarryingplatform_nozzleupperarm_existent_yes",
+                "label": "Ja",
+                "uid": "greater75_mancarryingplatform_nozzleupperarm_existent_yes"
+            },
+            {
+                "condition": "",
+                "displayStringUID": "question.greater75_mancarryingplatform_nozzleupperarm_existent.option.greater75_mancarryingplatform_nozzleupperarm_existent_no",
+                "label": "Nein",
+                "uid": "greater75_mancarryingplatform_nozzleupperarm_existent_no"
+            }
+        ],
+        "qualityAssured": true,
+        "subcategory": "greater75.mancarryingplatform",
+        "uid": "greater75_mancarryingplatform_nozzleupperarm_existent",
+        "widgetType": "scroll-input"
+    }
+]
